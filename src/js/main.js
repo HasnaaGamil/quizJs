@@ -7,8 +7,8 @@ import {
   analyzeNutrition,
   searchMeals,
   getRandomMeals,
-} from "./src/js/api/mealdb.js";
-import { initProductCategories } from "./src/js/products-ui.js";
+} from "./api/mealdb.js";
+import { initProductCategories } from "./products-ui.js";
 
 const navLinks = document.querySelectorAll(".nav-link");
 
