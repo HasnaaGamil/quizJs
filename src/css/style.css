@@ -1,0 +1,15 @@
+.loading {
+  display:none
+}
+#main-content {
+    position: relative;
+    min-height: 100vh;
+}
+
+.section-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+}
