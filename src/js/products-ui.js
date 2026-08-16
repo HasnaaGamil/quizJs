@@ -3,8 +3,8 @@ import {
   getProductsByCategory,
   searchProducts,
   getProductByBarcode,
-} from "/src/js/api/products.js";
-import { setBarsRelative } from "/src/js/utils/bars.js";
+} from "./api/products.js";
+import { setBarsRelative } from "./utils/bars.js";
 
 const productCategoriesContainer = document.getElementById("product-categories");
 const productsGrid = document.getElementById("products-grid");
